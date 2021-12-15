@@ -1,0 +1,33 @@
+// Colores Principales
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+// Color Neutral
+$dark-blue-main-bg: hsl(217, 54%, 11%);
+$dark-blue-card-bg: hsl(216, 50%, 16%);
+$dark-blue-line: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+// Fuente
+$base-font: 'Outfit', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $dark-blue-main-bg;
+    font-family: $base-font;
+}
+
+// Estilos por Fontend Mentor
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
